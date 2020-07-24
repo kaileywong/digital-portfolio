@@ -1,0 +1,169 @@
+body {
+    font-family: "Baloo Thambi 2";
+    text-align: center;
+    color: darkblue;
+    background: linear-gradient(to bottom, #4e91bd 0%, #ffff99 100%);
+}
+
+.row {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Amatic SC";
+    font-size: 40px;
+    text-align: center;
+    color: MEDIUMAQUAMARINE;
+    text-shadow: 2px 2px lavender;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Comfortaa";
+    line-height: 1.5rem;
+    padding: 10px;
+    color: goldenrod;
+}
+
+a:link {
+    color: MEDIUMPURPLE;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:visited {
+    color: LIGHTSALMON;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: MEDIUMVIOLETRED;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: GOLD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry {
+    background-color: PALETURQUOISE;
+    height: 605px;
+    border-top: 5px solid violet;
+}
+
+.firstEntrya,
+.secondEntrya,
+.thirdEntrya {
+    background-color: LAVENDERBLUSH;
+    height: 820px;
+    border-top: 5px solid violet;
+}
+
+.firstEntryb,
+.secondEntryb,
+.thirdEntryb {
+    background-color: GAINSBORO;
+    height: 550px;
+    border-top: 5px solid violet;
+}
+
+.firstEntryc,
+.secondEntryc,
+.thirdEntryc {
+    background-color: LIGHTYELLOW;
+    height: 700px;
+    border-top: 5px solid violet;
+}
+
+.firstEntryd,
+.secondEntryd,
+.thirdEntryd {
+    background-color: LIGHTCYAN;
+    height: 775px;
+    border-top: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+.lastRow1,
+.lastRow2,
+.lastRow3 {
+    background-color: BLANCHEDALMOND;
+    height: 385px;
+    border-top: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Kalam";
+    color: goldenrod;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: "BenchNine";
+    color: ORANGE;
+    text-align: left;
+    padding: 10px;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry,
+.firstEntrya,
+.secondEntrya,
+.thirdEntrya,
+.firstEntryb,
+.secondEntryb,
+.thirdEntryb,
+.firstEntryc,
+.secondEntryc,
+.thirdEntryc,
+.firstEntryd,
+.secondEntryd,
+.thirdEntryd,
+.lastRow1,
+.lastRow2,
+.lastRow3 {
+    float: left;
+    width: 33%;
+}
+
+.firstEntry,
+.firstEntrya,
+.firstEntryb,
+.firstEntryc,
+.firstEntryd,
+.lastRow1 {
+    border-left: 5px solid violet;
+}
+
+.thirdEntry,
+.thirdEntrya,
+.thirdEntryb,
+.thirdEntryc,
+.thirdEntryd {
+    border-right: 5px solid violet;
+}
+
+.footer,
+.push {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    clear: both;
+}

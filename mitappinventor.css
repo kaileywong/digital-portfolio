@@ -1,0 +1,125 @@
+.firstEntry,
+.secondEntry,
+.lastRow1,
+.lastRow2 {
+    float: left;
+}
+
+.secondEntry {
+    width: 700px;
+    border-top: 5px solid violet;
+    border-right: 5px solid violet;
+}
+
+.lastRow2 {
+    width: 700px;
+    border-top: 5px solid violet;
+    border-right: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+.firstEntry {
+    width: 370px;
+    border-top: 5px solid violet;
+    border-left: 5px solid violet;
+}
+
+.lastRow1 {
+    width: 370px;
+    border-top: 5px solid violet;
+    border-left: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+.firstEntry,
+.secondEntry {
+    height: 480px;
+}
+
+.lastRow1,
+.lastRow2 {
+    height: 650px;
+}
+
+body {
+    font-family: "Baloo Thambi 2", fantasy;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff99ff 0%, #99ff99 100%);
+}
+
+.row {
+    margin: 0 auto;
+    /* flex: auto; */
+    width: 90%;
+}
+
+.firstEntry,
+.secondEntry {
+    text-align: center;
+    color: MISTYROSE;
+}
+
+h2 {
+    font-family: "Amatic SC";
+    font-size: 40px;
+    text-align: center;
+    color: PLUM;
+    text-shadow: 2px 2px thistle;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Comfortaa";
+    color: darkblue;
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+a:link {
+    color: MEDIUMPURPLE;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:visited {
+    color: LIGHTSALMON;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: MEDIUMVIOLETRED;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: GOLD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.firstEntry,
+.secondEntry {
+    background-color: LAVENDER;
+}
+
+.lastRow1,
+.lastRow2 {
+    background-color: LIGHTCYAN;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Kalam";
+    color: darkblue;
+}
+
+.footer,
+.push {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    clear: both;
+}

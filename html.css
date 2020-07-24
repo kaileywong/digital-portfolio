@@ -1,0 +1,134 @@
+body {
+    font-family: 'Baloo Thambi 2';
+    text-align: center;
+    background: linear-gradient(to bottom, #666699 0%, #ff9966 100%);
+}
+
+.row {
+    margin: 0 auto;
+    width: 95%;
+    clear: left;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry,
+.lastRow1,
+.lastRow2,
+.lastRow3 {
+    float: left;
+}
+
+.lastRow3 {
+    border-bottom: 5px solid violet;
+    border-top: 5px solid violet;
+    border-right: 5px solid violet;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry,
+.lastRow1,
+.lastRow2,
+.lastRow3 {
+    width: 390px;
+    height: 520px;
+    border-top: 5px solid violet;
+}
+
+.lastRow1 {
+    border-left: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+.lastRow2 {
+    border-bottom: 5px solid violet;
+}
+
+.firstEntry {
+    border-left: 5px solid violet;
+}
+
+.thirdEntry {
+    border-right: 5px solid violet;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Amatic SC";
+    font-size: 40px;
+    text-align: center;
+    color: CHOCOLATE;
+    text-shadow: 2px 2px thistle;
+}
+
+h1 {
+    font-family: "Comfortaa";
+    font-size: 10px;
+    color: MEDIUMPURPLE;
+    text-shadow: 1px 1px thistle;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Comfortaa";
+    color: coral;
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+a:link {
+    color: SALMON;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:visited {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: MEDIUMVIOLETRED;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: GOLD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry {
+    background-color: AZURE;
+}
+
+.lastRow1,
+.lastRow2,
+.lastRow3 {
+    background-color: BLANCHEDALMOND;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: "Kalam";
+    color: CORAL;
+}
+
+.footer,
+.push {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    clear: both;
+}

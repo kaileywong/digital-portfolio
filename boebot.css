@@ -1,0 +1,127 @@
+body {
+    font-family: "Baloo Thambi 2", fantasy;
+    text-align: center;
+    color: purple;
+    background: linear-gradient(to bottom, #ccffcc 0%, #666699 100%);
+}
+
+.row {
+    margin: 0 auto;
+    width: 92%;
+}
+
+.firstEntry,
+.secondEntry {
+    text-align: center;
+    font-family: "Palatino";
+}
+
+h2 {
+    font-family: "Amatic SC";
+    font-size: 40px;
+    text-align: center;
+    color: PLUM;
+    text-shadow: 2px 2px thistle;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Comfortaa";
+    line-height: 1.5rem;
+    color: teal;
+    padding-left: 10px;
+}
+
+a:link {
+    color: MEDIUMPURPLE;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:visited {
+    color: LIGHTSALMON;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: MEDIUMVIOLETRED;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: GOLD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.firstEntry,
+.secondEntry,
+.lastRow1,
+.lastRow2 {
+    background-color: LAVENDER;
+}
+
+.firstEntrya,
+.secondEntrya {
+    background-color: LIGHTCYAN;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Kalam";
+    color: teal;
+}
+
+.firstEntry,
+.secondEntry,
+.firstEntrya,
+.secondEntrya,
+.lastRow1,
+.lastRow2 {
+    float: left;
+}
+
+.secondEntry,
+.secondEntrya {
+    width: 700px;
+    height: 500px;
+    border-top: 5px solid violet;
+    border-right: 5px solid violet;
+}
+
+.lastRow2 {
+    width: 700px;
+    height: 500px;
+    border-right: 5px solid violet;
+}
+
+.firstEntry,
+.firstEntrya {
+    width: 370px;
+    height: 500px;
+    border-top: 5px solid violet;
+    border-left: 5px solid violet;
+}
+
+.lastRow1 {
+    width: 370px;
+    height: 500px;
+    border-left: 5px solid violet;
+}
+
+.lastRow1,
+.lastRow2 {
+    border-top: 5px solid violet;
+    border-bottom: 5px solid violet;
+}
+
+.footer,
+.push {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    clear: both;
+}

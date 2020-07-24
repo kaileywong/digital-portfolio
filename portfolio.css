@@ -1,0 +1,118 @@
+.row {
+    margin: 0 auto;
+    clear: both;
+    width: 75%;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry,
+.lastRow1,
+.lastRow3 {
+    float: left;
+}
+
+.lastRow1,
+.lastRow3 {
+    width: 452.5px;
+    height: 300px;
+    border-bottom: 5px solid plum;
+    border-top: 5px solid plum;
+    border-right: 5px solid plum;
+}
+
+.firstEntry,
+.secondEntry,
+.thirdEntry {
+    width: 300px;
+    height: 300px;
+    border-top: 5px solid plum;
+    border-right: 5px solid plum;
+}
+
+.lastRow1 {
+    border: 5px solid plum;
+}
+
+.firstEntry {
+    border-left: 5px solid plum;
+}
+
+body {
+    font-family: "Amatic SC", cursive;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffccff 0%, #99ccff 100%);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: HOTPINK;
+    text-shadow: 2px 2px darkviolet;
+}
+
+h2 {
+    font-family: "Assistant", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: PEACHPUFF;
+    text-shadow: 2px 2px thistle;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    color: LIGHTSKYBLUE;
+}
+
+a:link {
+    color: MEDIUMPURPLE;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: LIGHTSALMON;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: MEDIUMVIOLETRED;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: GOLD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.firstEntry,
+.lastRow1 {
+    text-align: center;
+    background-color: GHOSTWHITE;
+}
+
+.secondEntry {
+    background-color: AZURE;
+}
+
+.thirdEntry,
+.lastRow3 {
+    background-color: LAVENDERBLUSH;
+}
+
+.footer,
+.push {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    clear: both;
+}
+
+p {
+    color: blueviolet;
+}
